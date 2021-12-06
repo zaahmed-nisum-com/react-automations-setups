@@ -1,4 +1,4 @@
-# Automate your React app to check code quality check the eslint errors and forcefully run the prettier
+# Automate your React app to check code quality & code formating/prettier and eslint rules on code.
 
  ### Step 1: npx create-react-app "app name"
  ### Step 2: npm install --dev eslint-config-prettier  
@@ -11,6 +11,8 @@
  ### Step 7: npm install husky --save-dev  
  ### Step 8: npx mrm@2 lint-staged
  #### This command will create a folder with .husky name and a file with pre-commit file having command "npx lint-staged". So when you commit your code on git it will run the command and check if their is any code error it will not commit the code until all the errors resolve.
+ #### Future work
+ ##### I will add some test cases and after that we will see the code coverage to before commit the code on github.
      
  
  
