@@ -11,7 +11,7 @@ function App() {
    */
 
   return (
-    <div className="App app- app">
+    <div className="App app- app -s">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
